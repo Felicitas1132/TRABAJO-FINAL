@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MelArte</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Zeyada&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header>
+        <div>
+
+            <h1>MelArte</h1>
+        </div>
+    </header>
+    <nav>
+        <ul class="holder">
+            <li><a class="activo" href="index.html">Home</a></li>
+            <li><a href="Nosotros.html">Nosotros</a></li>
+            <li><a href="Galeria.html">Galeria</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+
+        </ul>
+    </nav>
+    <main>
+        <div class="columnas">
+            <div class="div1"><img src="IMG/bici.JPG" alt="bici"></div>
+            <div class="div2">
+                <h2>Realismo mágico</h2>
+                <p> Te acercamos un concepto de arte diferente para llenar de colores tu vida. Te invitamos a descubrir la belleza de nuestros cuadros y retratos en cada pared de tu hogar. Podrás elegir cualquiera de los que tenemos en stock en nuestra Galeria o comentarnos cuales son tus necesidades para realizar un cuadro o retrato a tu gusto y si lo desearas, contar también con el asesoramiento de nuestro equipo. </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p> Diseñado por: Melania Cerolini. © 2023 MelArte</p>
+    </footer>
+
+    <script src="JS/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.zoom').hover(function() {
+                $(this).addClass('transition');
+            }, function() {
+                $(this).removeClass('transition');
+            });
+        });
+        </script>
+
+</body>
+
+</html>

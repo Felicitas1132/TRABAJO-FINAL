@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MelArte</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Zeyada&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>MelArte</h1>
+        </div>
+    </header>
+    <nav>
+        <ul class="holder">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Nosotros.html">Nosotros</a></li>
+            <li><a class="activo" href="Galeria.html">Galeria</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+
+        </ul>
+    </nav>
+    <main>
+        <div class="Galeria">
+           
+            <div class="cuadros">
+                <h2>Cuadros al óleo</h2>
+                
+                <div class="cuadro">
+                    <img src="IMG/bici.JPG" class="zoom" alt="bici">
+                    <h4>AÑORADA BICICLETA</h4>
+                    <h5>Medidas 80cm x 60cm</h5>
+                </div>
+                <div class="cuadro">
+                    <img src="IMG/escritorio.JPG" class="zoom" alt="ESCRITORIO">
+                    <h4>ESCRITORIO</h4>
+                    <h5> Medidas 40cm x 50cm</h5>
+                </div>
+                <div class="cuadro">
+                    <img src="IMG/gato.JPG" class="zoom" alt="gato">
+                    <h4>GATO</h4>
+                    <h5> Medidas 30cm x 40cm</h5>
+                </div>
+                <div class="cuadro">
+                    <img src="IMG/caracoles.jpg" class="zoom" alt="caracoles">
+                    <h4>EL MAR EN CASA</h4>
+                    <h5> Medidas 20cm x 40cm</h5>
+                </div>
+                <div class="cuadro">
+                    <img src="IMG/JARRON CON FLORES.jpeg" class="zoom"alt="Jarron">
+                    <h4>JARRÓN CON FLORES</h4>
+                    <h5> Medidas 40cm x 50cm</h5>
+                </div>
+                <div class="cuadro">
+                    <img src="IMG/panadero.jpg" class="zoom" alt="panadero">
+                    <h4>AMANECER DE ENSUEÑO</h4>
+                    <h5> Medidas 20cm x 40cm</h5>
+                </div>
+                <div class="cuadro">
+                    <img src="IMG/TIGRE.jpeg" class="zoom" alt="TIGRE">
+                    <h4>FUERZA FELINA</h4>
+                    <h5> Medidas 30cm x 40cm</h5>
+                </div>
+                <div class="cuadro">
+                    <img src="IMG/vino y uvas.JPG" class="zoom" alt="copas">
+                    <h4>NOCHE DE COPAS Y VINO</h4>
+                    <h5> Medidas 40cm x 50cm</h5>
+                </div>
+
+                <div class="cuadro">
+                    <img src="IMG/ARBOL.jpeg" class="zoom" alt="ATARDECER">
+                    <h4>ATARDECER EN EL MAR</h4>
+                    <h5> Medidas 40cm x 50cm</h5>
+                </div>
+
+                
+                
+
+                <h2>Retratos</h2>
+                <div class="cuadro">
+                    <img src="IMG/labios rojos.jpg" class="zoom" alt="retrato mujer labios rojos">
+                    <h4>LABIOS ROJOS</h4>
+                    <h5> Medidas 15cm x 40cm</h5>
+                </div>
+                <div class="cuadro">
+                    <img src="IMG/lentes rojos.jpg"class="zoom" alt="retrato lentes rojos">
+                    <h4>ANTEOJOS DE CORAZONES</h4>
+                    <h5> Medidas 15cm x 40cm</h5>
+                </div>
+                <div class="cuadro">
+                    <img src="IMG/Angelina.jpg" class="zoom" alt="Retrato Angelina">
+                    <h4>BELLA ANGELINA</h4>
+                    <h5> Medidas 15cm x 40cm</h5>
+                </div>
+                <div class="cuadro">
+                    <img src="IMG/retrato.jpg" class="zoom" alt="Retrato">
+                    <h4>RETRATO AL AMANECER</h4>
+                    <h5> Medidas 15cm x 40cm</h5>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+    <script src="JS/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.zoom').hover(function() {
+                $(this).addClass('transition');
+            }, function() {
+                $(this).removeClass('transition');
+            });
+        });
+        </script>
+    <footer>
+        <p> Diseñado por: Melania Cerolini. © 2023 MelArte</p>
+    </footer>
+</body>
+
+</html>

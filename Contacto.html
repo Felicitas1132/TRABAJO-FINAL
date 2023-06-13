@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MelArte</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Zeyada&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <header>
+        <div>
+
+            <h1>MelArte</h1>
+        </div>
+    </header>
+    <nav>
+        <ul class="holder">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Nosotros.html">Nosotros</a></li>
+            <li><a href="Galeria.html">Galeria</a></li>
+            <li><a class="activo" href="contacto.html">Contacto</a></li>
+
+        </ul>
+    </nav>
+    <main>
+        <div>
+            <h2> Dejanos tu mensaje</h2>
+            <h3>Si estás interesado en alguna de nuestras obras y necesitas más información o para resolver tus consultas en relación a alguna obra a pedido, no dudes en dejarnos un mensaje y te contactaremos a la brevedad:</h3>
+
+            <form action="" method="">
+
+                <div class="fila">
+                    <div><input type="text" class="form" placeholder="NOMBRE" required="" data-val="true"
+                            data-val-required="form" id="Nombre" name="Nombre" value="" aria-required="true"></div>
+                    <div><input type="text" class="form" required="" placeholder="E-MAIL" data-val="true"
+                            data-val-regex="E-mail inválido."
+                            data-val-regex-pattern="^[a-zA-Z0-9!#$%&amp;'*+/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&amp;'*+/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?$"
+                            data-val-required="E-mail obligatório" id="Email" name="Email" value=""
+                            aria-required="true"></div>
+                    <div><input type="text" required="" class="form" placeholder="TELÉFONO" data-val="true"
+                            data-val-required="teléfono obligatorio" id="Teléfono" name="Teléfono" value=""
+                            maxlength="15" aria-required="true"></div>
+
+                </div>
+
+                <div class="Mensaje">
+                    <textarea class="Msj" rows="10" cols="110" placeholder="Dejanos tu mensaje" data-val="true"
+                        data-val-required="Mensaje obligatorio" id="Mensaje" name="Mensaje"></textarea>
+                </div>
+
+
+                <div class="row">
+                    <button name="submit" type="submit" value="Submit" class="btn">ENVIAR MENSAJE<span
+                            style="btn"></span></button>
+
+                </div>
+
+            </form>
+       
+        </div>
+
+        <div class="Otrosmedios">
+        <div><a href="https://www.instagram.com/melarte.ar/" target="_blank"><img src="IMG/INSTAGRAM1.png" alt="LOGO INSTA"></a></div>
+        <div><img src="IMG/telefono.png" alt="LOGO TEL"><a href="https://api.whatsapp.com/send/?phone=543547467802"target="_blank"><img src="IMG/WP.png" alt="WP"></a>  3547-467802  </div>
+        <div><a href="mailto:mcerolini@outlook.com" target="_blank"><img src="IMG/EMAIL.png" alt="LOGO EMAIL">mcerolini@outlook.com</a></div>
+        <div><a href="https://goo.gl/maps/iYEmyV9LD5Pff21L7" target="_blank"><img src="IMG/UBICACION.png" alt="LOGO UBICACIÓN"></a>Monte Ralo,Córdoba,Argentina</div>
+        </div>
+    </main>
+
+
+
+    <footer>
+        <p> Diseñado por: Melania Cerolini. © 2023 MelArte</p>
+    </footer>
+
+</body>
+
+</html>
