@@ -1,6 +1,4 @@
-/*
-font-family: 'Carter One', cursive;
-*/
+
 body {
     font-family: sans-serif;
     font-size: 16px;
@@ -164,20 +162,13 @@ footer {
 
 
 }
-
 img.zoom {
 
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
     -ms-transition: all .2s ease-in-out;
-
-
-
 }
-
-
-
 /*fin Galeria*/
 
 /*inicio Contacto*/
@@ -187,7 +178,8 @@ img.zoom {
 }
 
 .form {
-
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -202,7 +194,12 @@ img.zoom {
     width: 300px;
 }
 
-
+.Mensaje {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
 
 .fila {
     display: flex;
@@ -215,15 +212,7 @@ img.zoom {
 }
 
 
-
-.Mensaje {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.Msj {
+.Msj {  
     text-align: justify;
     justify-content: center;
     align-items: center;
